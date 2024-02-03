@@ -1,0 +1,70 @@
+/* Main CSS file */
+
+
+
+body
+{
+    /* Location */
+    display: flex;
+    height: calc(100vh - 16px);
+    margin: 8px;
+
+
+    /* Style */
+    font-family: 'Open Sans';
+    font-size: 18px;
+    background-color: rgb(67, 74, 80);
+    background-size: cover;
+    color: whitesmoke;
+}
+
+
+/* Main Flexbox Containers */
+.main
+{
+    /* Location */
+    display: flex;
+    flex-direction: column; 
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 800px;
+    max-width: 1500px;
+    margin: auto;
+    margin-top: 58px;
+
+    /* Style */
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+
+.horizontal-box
+{
+    /* Location */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    /* Style */
+    width: 100%;
+}
+
+
+.vertical-box
+{
+    /* Location */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* Style */
+    width: 100%;
+}
+
+/* Everything else */
+h2
+{
+    align-self: flex-start;
+}
+

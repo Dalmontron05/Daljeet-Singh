@@ -1,0 +1,1 @@
+[HTML Preview](https://htmlpreview.github.io/?https://github.com/Dalmontron05/School-Notes/blob/main/Semester%202/MKT330/Assignment-2p1/index.html)

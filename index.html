@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<!-- Main HTML file -->
+<!-- Assignment 2.1: Let the Search Begin! -->
+
+
+
+<html>
+<head>
+    <!-- Metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+
+    <!-- Imports -->
+    <!-- main css file -->
+    <link href="style.css" rel="stylesheet">
+
+    <!-- open sans font -->
+    <link href="https://fonts.googleapis.com/css?family=Open Sans" rel="stylesheet">
+
+    <!-- navigation bar css -->
+    <link rel="stylesheet" href="./Extra/nav.css">
+</head>
+
+
+<body>
+    <nav>
+        <!-- Embedded links buttons -->
+        <a class="home active" href="./index.html">Home</a>
+        <a href="./portfolio.html">Portfolio</a>
+        <a href="./about-me.html">About Me</a>
+        <a href="./blog.html">Blog</a>
+        <a href="./contact.html">Contact</a>
+    </nav>
+
+
+    <!-- Main Flexbox Container -->
+    <div class="main">
+        <!-- Introduction -->
+        <div class="vertical-box" style="width: calc(100% - 50px);">
+            <h1>Daljeet Singh's Website</h1>
+            <p>Welcome to my Website! Here you'll find more about me and what I do.</p>
+        </div>
+
+
+        <!-- Projects -->
+        <div class="vertical-box">
+            <!-- siege-o-namics -->
+            <div class="horizontal-box" style="width: calc(100% - 50px);">
+                <img alt="Siege-O-Namics running preview" width="600px" src="./Assets/siege-o-namics.png">
+                <p style="text-align: left;">Siege-O-Namics is a WIP project related to the operators in the video game Tom Clancy's: Rainbow Six Siege. Each operator has a page dedicated to them, a page that contains advanced tips. The goal of the project is not to teach people how the operators work, it already assumes the user has this knowledge. It instead indexes information regarding the complications of that operators place in the game.</p>
+            </div>
+
+
+            <!-- sync-music -->
+            <div class="horizontal-box" style="width: calc(100% - 50px);">
+                <p style="text-align: right;">This is a bash script I created to automate how I maintain my music I listen to. I listen to music from local files in an mp3 player app on my phone, and explore music on youtube. This script can download my music from youtube, sync my music and playlist files across devices, and rename directories within those playlists to match with their respective device. This allows for an intuitive way to listen to music the old way.</p>
+                <img alt="sync-music.sh script preview" width="600px" src="./Assets/music-sync.png">
+            </div>
+
+
+            <!-- Freedom -->
+            <div class="horizontal-box" style="width: calc(100% - 50px);">
+                <img alt="freedom (hey-ya parody) album cover" width="500px" src="./Assets/freedom.jpg">
+                <p style="text-align: left;">Freedom is a parody of The OutKast's Hey Ya! It was a school project in highschool for two of my friends. They didn't have much experience in editing, which is why I helped out. I sang the chorus, and edited the video with audacity and davinci resolve.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+
+    </footer>
+
+    <!-- main js -->
+    <script src="script.js"></script>
+</body>
+</html>
+

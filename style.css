@@ -30,7 +30,7 @@ body
     min-width: 800px;
     max-width: 1500px;
     margin: auto;
-    margin-top: 58px;
+    margin-top: 58px; /* gap for navbar when user is scrolled to very top of page */
 
     /* Style */
     background-color: rgba(0, 0, 0, 0.3);
@@ -62,9 +62,11 @@ body
     width: 100%;
 }
 
-/* Everything else */
-h2
+
+.submain
 {
-    align-self: flex-start;
+    width: calc(100% - 50px);
 }
+
+/* Everything else */
 
